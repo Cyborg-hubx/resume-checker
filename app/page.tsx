@@ -5,6 +5,24 @@ import { useState } from "react"
 export default function Home() {
   const [file, setFile] = useState<File | null>(null)
 
+  async function analyzeResume() {
+  if (!file) {
+    alert("Please select a resume first.")
+    return
+  }
+
+  const formData = new FormData()
+
+  formData.append("resume", file)
+
+  const response = await fetch("/api/analyze", {
+    method: "POST",
+    body: formData,
+  })
+  const result = await response.json()
+  console.log(result)
+}
+
   return (
     <main className="container">
       <div className="header">
@@ -38,7 +56,7 @@ export default function Home() {
           </div>
         )}
 
-        <button>Analyze Resume</button>
+        <button onClick={analyzeResume}>Analyze Resume</button>
       </section>
 
       <section className="card">
