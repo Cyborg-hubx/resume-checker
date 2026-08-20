@@ -1,4 +1,10 @@
+"use client"
+
+import { useState } from "react"
+
 export default function Home() {
+  const [file, setFile] = useState<File | null>(null)
+
   return (
     <main className="container">
       <div className="header">
@@ -9,7 +15,28 @@ export default function Home() {
       <section className="card">
         <h2>Upload your Resume</h2>
 
-        <input type="file" accept=".pdf" />
+        <input
+          type="file"
+          accept=".pdf"
+          onChange={(event) => {
+            const selectedFile = event.target.files?.[0]
+            setFile(selectedFile || null)
+          }}
+        />
+
+        {file && (
+          <div className="file-preview">
+            <span>{file.name}</span>
+
+            <button
+              type="button"
+              className="remove-button"
+              onClick={() => setFile(null)}
+            >
+              ×
+            </button>
+          </div>
+        )}
 
         <button>Analyze Resume</button>
       </section>
