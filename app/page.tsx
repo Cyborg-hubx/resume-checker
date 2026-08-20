@@ -4,6 +4,11 @@ import { useState } from "react"
 
 export default function Home() {
   const [file, setFile] = useState<File | null>(null)
+  const [analysis, setAnalysis] = useState<{
+    score: number
+    strengths: string[]
+    improvements: string[]
+  } | null>(null)
 
   async function analyzeResume() {
   if (!file) {
@@ -20,7 +25,7 @@ export default function Home() {
     body: formData,
   })
   const result = await response.json()
-  console.log(result)
+  setAnalysis(result.analysis)
 }
 
   return (
@@ -61,23 +66,36 @@ export default function Home() {
 
       <section className="card">
         <h2>Analysis</h2>
-
         <div className="score">
           <span>Resume Score</span>
-          <strong>--/100</strong>
+          <strong>
+            {analysis ? `${analysis.score}/100` : "--/100"}
+          </strong>
         </div>
 
         <div className="analysis-section">
           <h3>Strengths</h3>
           <ul>
-            <li>No analysis yet.</li>
+            {analysis ? (
+              analysis.strengths.map((strength, index) => (
+                <li key={index}>{strength}</li>
+              ))
+            ) : (
+              <li>No analysis yet.</li>
+            )}
           </ul>
         </div>
 
         <div className="analysis-section">
           <h3>Areas for Improvement</h3>
           <ul>
-            <li>No analysis yet.</li>
+            {analysis ? (
+              analysis.improvements.map((improvement, index) => (
+                <li key={index}>{improvement}</li>
+              ))
+            ) : (
+              <li>No analysis yet.</li>
+            )}
           </ul>
         </div>
       </section>
