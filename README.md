@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 This is a resume checker
 It will basically check your resume score based on its content
 We use Gemini as the LLM
-
+Use it wisely
 ## Getting Started
 
 First, run the development server:
