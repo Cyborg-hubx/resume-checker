@@ -4,6 +4,7 @@ This is a resume checker
 It will basically check your resume score based on its content
 We use Gemini as the LLM
 Use it wisely
+This is still under dev
 ## Getting Started
 
 First, run the development server:
