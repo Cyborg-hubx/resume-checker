@@ -6,7 +6,7 @@ We use Gemini as the LLM
 Use it wisely
 This is still under dev
 Please do not depend on this
-NPM RUN dv
+NPM RUN dv  gyuguy
 ## Getting Started
 
 First, run the development server:
