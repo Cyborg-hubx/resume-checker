@@ -10,7 +10,7 @@ NPM RUN dv  gyuguy
 ## Getting Started
 
 First, run the development server:
-
+YEs
 ```bash
 npm run dev
 # or
