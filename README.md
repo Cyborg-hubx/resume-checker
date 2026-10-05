@@ -5,7 +5,7 @@ It will basically check your resume score based on its content
 We use Gemini as the LLM
 Use it wisely
 This is still under dev
-Please do not depend on this
+Please do not depend on thisxdfcgvhbnjkm
 NPM RUN dv  gyuguy
 ## Getting Started
 mjjfhvjhukijko
