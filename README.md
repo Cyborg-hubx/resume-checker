@@ -11,7 +11,7 @@ NPM RUN dv  gyuguy
 mjjfhvjhukijko
 First, run the development server:
 YEs
-```bash
+```bashdaesfrd
 npm run dev
 # or
 yarn dev
