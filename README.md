@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 This is a resume checkerdwaeada
-It will basically check your resume score based on its content
+It will basically check your resume score based oasdcvdsasdsassan its content
 We use Gemini as the LLM
 Use it wisely
 This is still under dev
