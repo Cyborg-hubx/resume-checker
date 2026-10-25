@@ -11,7 +11,7 @@ mjjfhvjhukijko
 First, run the development server:
 YEs
 ```bashdaesfrd
-npm run dev
+npm run dev sourdough
 # or
 yarn dev
 # or
