@@ -1,4 +1,4 @@
-richThis is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+kapalrichThis is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 This is a resume checkerdwaeadaaedawdadawdontent
 We use Gemini as the LLM
@@ -7,7 +7,7 @@ This is still under dev
 Please do not depend on thisxdfcgvhbnjkmedrftgyhuijkol
 NPM RUN dv  gyuguy
 ## Getting Started
-mjjfhvjhukijko
+mjjfhvjhukijko FL
 First, run the development server:
 YEs
 ```bashdaesfrd
