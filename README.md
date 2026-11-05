@@ -12,7 +12,7 @@ The AI Resume Checker simplifies the resume review process by combining PDF text
 - **Text Extraction** – Extracts readable text from uploaded PDF documents using `pdf-parse`.
 - **AI-Powered Analysis** – Processes extracted resume content using an AI model.
 - **Structured Feedback** – Returns analysis in a structured JSON format for easier presentation and processing.
-- **Resume Evaluation** – Provides feedback on resume content, strengths, weaknesses, and potential improvements.
+- **Resume Evaluation** – Provides feedback on resume content, strengths, weaknesses, and potential improvements. Grabe
 
 ## Tech Stack
 
