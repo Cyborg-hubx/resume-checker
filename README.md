@@ -8,7 +8,7 @@ The AI Resume Checker simplifies the resume review process by combining PDF text
 
 ## Features cz
 
-- **PDF Resume Upload** – Upload resumes in PDF format for analysis.
+- **PDF Resume Upload** – Upload re guythsumes in PDF format for analysis.
 - **Text Extraction** – Extracts readable text from uploaded PDF documents using `pdf-parse`.
 - **AI-Powered Analysis** – Processes extracted resume content using an AI model.
 - **Structured Feedback** – Returns analysis in a structured JSON format for easier presentation and processing.
